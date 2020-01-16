@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Input from './components/app'
+import Login from './components/Login/index';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Input />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById('root'));
 serviceWorker.unregister();
