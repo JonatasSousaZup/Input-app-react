@@ -1,7 +1,9 @@
 import React from 'react';
 
-const Button = () => (
-    <button className="adicionar">Salvar</button>
-);
+const Button = (props) => {
+   return (
+
+    <button onClick={props.onClick} className="adicionar">Salvar</button>
+)};
 
 export default Button;

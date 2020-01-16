@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import Input from '../components/Input';
+import Input from '../Input';
 
-import Button from '../components/Button';
 
-class Home extends React.Component {
+class Login extends React.Component {
     constructor(props) {
         super(props)
-        this.handleLogin = this.handleLogin.bind(this)
+
+       // this.handleLogin = this.handleLogin.bind(this)
     }
-    handleLogin() {
+    handleLogin =() => {
         console.log('click')
     }
 
@@ -17,15 +17,8 @@ class Home extends React.Component {
         return (
             <div>
                 <Input/>
-                <Button/>
-                <input hintText="nome"
-                type="text"
-                />
-                <input hintText="sobrenome"
-                type="text"
-                />
             </div>
         )
     }
 }
-export default Home;
+export default Login;
